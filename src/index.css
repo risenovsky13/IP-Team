@@ -1,4 +1,4 @@
-body {
+body  {
 	min-height: 60rem;
 	color: #ebe7ef;
 	background: radial-gradient(#642777, #3a0061);
@@ -13,3 +13,10 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+/* #root{
+	width: 100%;
+	outline: 2px solid green;
+	display: flex;
+	justify-content: center;
+} */
