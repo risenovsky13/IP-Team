@@ -1,0 +1,9 @@
+.icon {
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+#icon_background{
+    background-color: #3f255a;
+    width: 46px;
+    height: 46px;
+}
