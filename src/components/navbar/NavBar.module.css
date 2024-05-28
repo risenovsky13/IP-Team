@@ -1,13 +1,13 @@
 #nav_container {
 
-    margin-top: 30px;
     background-color: #350469;
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.7);
     border-radius: 15px;
     text-align: center;
     padding: 5px  20px  5px 20px;
-    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.7);
-    max-width: 420px;
-    max-height: 58px;
+    width: 420px;
+    /* height: 58px; */
+    margin: 0 auto;
 
 
 }

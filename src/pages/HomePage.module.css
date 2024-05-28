@@ -1,0 +1,17 @@
+#home_page {
+    height: 70vh;
+    width: 60vw;
+    margin-top: 100px;
+    border-radius: 25px;
+    background-color: #350469;
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
