@@ -1,4 +1,4 @@
-:root    {
+:root {
 	min-height: 100vh;
 	color: #ebe7ef;
 	background: radial-gradient(#642777, #3a0061);
@@ -12,6 +12,9 @@
 
 	margin: 0;
 	padding: 0;
+	--components-background: #350469;
+	--components-boxshadow:  10px 10px 20px rgba(0, 0, 0, 0.5);
+	
 	
 }
 
@@ -24,5 +27,3 @@
 body {
 	padding-top: 30px;
 }
-
-

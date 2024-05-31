@@ -1,7 +1,7 @@
 #nav_container {
 
-    background-color: #350469;
-    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.7);
+    background-color: var(--components-background);
+    box-shadow:  var(--components-boxshadow);
     border-radius: 15px;
     text-align: center;
     padding: 5px  20px  5px 20px;
