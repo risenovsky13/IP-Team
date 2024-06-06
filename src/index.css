@@ -1,29 +1,26 @@
-:root {
-	min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	
+	font-family: "Quicksand", sans-serif;
+	line-height: 1.5;
+
 	color: #ebe7ef;
-	background: radial-gradient(#642777, #3a0061);
+	background: hsl(0, 0%, 20%);
+
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
-	display: flex;
-	justify-content: center;
-
-	margin: 0;
-	padding: 0;
-	--components-background: #350469;
-	--components-boxshadow:  10px 10px 20px rgba(0, 0, 0, 0.5);
-	
-	
+	min-height: 60rem;
 }
 
-#root {
-	display: flex-box;
-	justify-content: center;
-	align-items: center;
-}
-
-body {
-	padding-top: 30px;
+div {
+	outline: 2px solid red;
+	height: 60rem;
 }
