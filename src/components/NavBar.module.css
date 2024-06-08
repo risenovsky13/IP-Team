@@ -1,0 +1,61 @@
+﻿.navbar_container {
+    font-family: "Inter", sans-serif;
+    color: snow;
+    /* outline: 2px solid green; */
+    height: 70px;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.2), 0 5px 5px hsla(0, 0%, 0%, 0.2),
+                inset 0 1px 1px  hsla(0, 0%, 100%, 0.2);
+    
+    
+}
+
+#logo {
+    /* outline: 2px solid lightblue; */
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 900;
+}
+.links_container {
+    margin: 0 auto;   
+    gap: 20px;
+
+}
+.links {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    background: none;
+    color: snow;
+}
+
+.sign_in_button {
+    background: none;
+    border: none;
+    outline: 1px solid rgba(255, 255, 255, 0.6) ;
+    height: 54px;
+    width: 130px;
+    position: absolute;
+    right: 5.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: snow;
+    box-shadow: inset 0 -10px 30px hsla(0, 0%, 100%, 0.15);
+}
