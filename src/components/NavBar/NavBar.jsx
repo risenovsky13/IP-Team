@@ -4,7 +4,7 @@ export default function NavBar() {
     return (
         <>
             <div className={style.navbar_container}>
-                <span id={style.logo}>I-Piczki</span>
+                <span id={style.logo}><p>I-Piczki</p></span>
                 <span className={style.links_container}>
                     <a href="#" className={style.links}>
                         Home
@@ -28,6 +28,9 @@ export default function NavBar() {
                 </span>
                 <button className={style.sign_in_button}>Sign Up</button>
             </div>
+
+
+            
         </>
     );
 }

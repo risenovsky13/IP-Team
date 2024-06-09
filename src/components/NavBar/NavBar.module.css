@@ -16,7 +16,8 @@
 }
 
 #logo {
-    /* outline: 2px solid lightblue; */
+    font-weight: 900;
+
     width: 130px;
     height: 60px;
     position: absolute;
@@ -41,7 +42,7 @@
 .sign_in_button {
     background: none;
     border: none;
-    outline: 1px solid rgba(255, 255, 255, 0.6);
+    outline: 1px solid rgba(255, 255, 255, 0.3);
     height: 54px;
     width: 130px;
     position: absolute;
