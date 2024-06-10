@@ -1,7 +1,22 @@
 ﻿.core_features_container {
-    outline: 1px solid  red ;
-    height: 600px;
-    width: 400px;
+    outline: 1px solid  snow ;
+    height: 400px;
+    width: 300px;
     margin-top: 100px;
     border-radius: 15px;
+    align-items: center;
+}
+
+.core_feature_logo {
+    width: 100px;
+    height: 100px;
+    outline:1px solid  lightblue;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.description_wrapper {
+    margin: 50px 30px 0 30px;
+    text-align: center;
 }

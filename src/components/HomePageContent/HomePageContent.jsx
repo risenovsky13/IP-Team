@@ -6,10 +6,15 @@ export default function HomePageContent() {
         <>
             <section>
                 <div className={styles.header_wrapper}>
-                    <h1 className={styles.header_h1}>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+                    <h1 className={styles.header_h1}>
+                        <p>Let's make our life easier</p>
+                        <p>& simpler</p>
+                    </h1>
                 </div>
                 <div className={styles.smaller_text_wrapper}>
-                    <p className={styles.smaller_text}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae facere.</p>
+                    <p className={styles.smaller_text}>
+                        Everything that needs repetiton,requires automation
+                    </p>
                 </div>
 
                 <div className={styles.get_started_btn_container}>
