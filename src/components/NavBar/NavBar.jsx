@@ -5,7 +5,7 @@ export default function NavBar() {
         <>
             <div className={style.navbar_container}>
                 <span id={style.logo}>
-                    <p id={style.logo_text}>I-Piczki</p>
+                    <p id={style.logo_text}>IP-iczki</p>
                 </span>
                 <span className={style.links_container}>
                     <a href="#" className={style.links} id={style.home_link}>
