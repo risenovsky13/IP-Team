@@ -37,6 +37,6 @@ footer {
 
 h1 {
     background: linear-gradient(135deg, hsl(194, 100%, 50%)25%, hsl(300, 100%, 50%) 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
