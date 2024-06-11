@@ -28,7 +28,7 @@ export default function NavBar() {
                         About
                     </a>
                 </span>
-                <button className={style.sign_in_btn}>Sign Up</button>
+                <button className={style.sign_up_btn}>Sign Up</button>
             </div>
         </>
     );

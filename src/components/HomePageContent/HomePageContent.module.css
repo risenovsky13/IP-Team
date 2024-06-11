@@ -1,11 +1,12 @@
 ﻿.header_h1 {
     text-align: center;
     font-size: 64px;
-    width: 900px;
-    height: 150px;
+    width: 950px;
+    height: 180px;
     font-weight: 600;
+    letter-spacing: 5px;
 }
-.header_wrapper{
+.header_wrapper {
     font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: center;
@@ -18,50 +19,76 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: hsla(0, 100%, 99%, 0.6);
-    margin-top: 0;
-    /* display: flex;
-    justify-content: center;
-    text-align: center; */
+    position: relative;
 }
 
 .smaller_text {
     font-size: 18px;
-    width: 450px;
+    width: 600px;
     text-align: center;
     margin: 0 auto;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 25px;
 }
 
 .get_started_btn_container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .get_started_btn {
-    width: 160px;
-    height: 50px;
+    width: 220px;
+    height: 70px;
     border: none;
-    border-radius: 6px;
-    background: hsl(246, 100%, 68%, 0.7);
-
-    font-family: 'Inter', sans-serif;
-    /* letter-spacing: 1px; */
+    border-radius: 50px;
+    background-color: var(--background-main);
     color: snow;
-    font-size: 18px;
+    margin-top: -2px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
     font-weight: 600;
-    box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.4), inset 0 2px 1px hsl(0, 100%, 99%, 0.2), inset 0 -2px 1px hsl(0, 0%, 0%, 0.2);
     cursor: pointer;
     transition: all 100ms;
+    box-shadow: 1px 1px 0 hsl(194, 100%, 50%), -1px 1px 0 hsl(194, 100%, 50%), 1px 3px 0 hsl(300, 100%, 50%), -1px 3px 0 hsl(300, 100%, 50%),
+        0 -25px 15px black;
+    position: absolute;
 }
 
+.get_started_btn:hover {
+    text-shadow: 0 0 10px hsl(194, 100%, 50%);
+}
 .get_started_btn:active {
-    background: hsla(246, 39%, 50%, 0.7);
+    text-shadow: 0 5px 20px hsl(194, 100%, 50%, 0.5), 0 -5px 20px hsl(194, 100%, 50%, 0.5), 5px 0 20px hsl(194, 100%, 50%, 0.5),
+        -5px 0 20px hsl(194, 100%, 50%, 0.5);
 }
 
+.gradient_shadow_container {
+    text-align: center;
+}
+
+.gradient_shadow_btn {
+    height: 70px;
+    width: 110px;
+    display: inline-block;
+}
+
+#gradient_shadow_btn_blue {
+    outline: 1px solid blue;
+    border-radius: 50px 0 0 50px;
+    box-shadow: -5px 25px 40px hsl(194, 100%, 50%, 0.5), 45px 25px 40px hsl(194, 100%, 50%, 0.5);
+}
+
+#gradient_shadow_btn_violet {
+    outline: 1px solid violet;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 5px 25px 40px hsl(300, 100%, 50%, 0.5), -45px 25px 40px hsl(300, 100%, 50%, 0.5);
+}
 
 .core_features_header {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 48px;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -72,4 +99,3 @@
     justify-content: center;
     gap: 150px;
 }
-
